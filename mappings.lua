@@ -19,6 +19,9 @@ return {
     -- },
 
     -- mappings seen under group name "Buffer"
+    ["<leader><F5>"] = { "<cmd>UndotreeToggle<cr>", desc = "Toggle UndoTree" },
+
+    ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
         require("astronvim.utils.status").heirline.buffer_picker(
