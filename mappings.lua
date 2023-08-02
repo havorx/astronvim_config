@@ -19,7 +19,15 @@ return {
     -- },
 
     -- mappings seen under group name "Buffer"
+
+    -- undotree
     ["<leader><F5>"] = { "<cmd>UndotreeToggle<cr>", desc = "Toggle UndoTree" },
+
+    -- package-info.nvim
+    ["<leader><F1>"] = { name = "Node package info" },
+    ["<leader><F1>s"] = { "<cmd>lua require('package-info').show()<cr>", desc = "Display Latest Package Version" },
+    ["<leader><F1>p"] = { "<cmd>lua require('package-info').change_version()<cr>", desc = "Install Different Version" },
+    ["<leader><F1>d"] = { "<cmd>lua require('package-info').delete()<cr>", desc = "Delete Dependency" },
 
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
