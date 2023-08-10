@@ -9,4 +9,5 @@ return {
 
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.code-runner.overseer-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
