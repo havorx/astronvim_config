@@ -12,6 +12,7 @@ return {
         "eslint",
         "html",
         "cssls",
+        "angularls",
       })
     end,
   },
