@@ -14,6 +14,8 @@ return {
         "cssls",
         "angularls",
         "yamlls",
+        "jsonls",
+        "bashls",
       })
     end,
   },

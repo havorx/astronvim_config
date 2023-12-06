@@ -10,7 +10,11 @@ return {
       "html",
       "css",
       "scss",
+      "angular",
       "jsdoc",
+      "ruby",
+      "jsonc",
+      "sql",
     })
   end,
 }
