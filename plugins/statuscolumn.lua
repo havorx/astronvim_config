@@ -15,6 +15,6 @@ return {
         }
       or nil
 
-    vim.o.signcolumn = "yes"
+    vim.o.signcolumn = "number"
   end,
 }
