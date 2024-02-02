@@ -10,6 +10,9 @@ return {
       "angular",
       "ruby",
       "sql",
+      "git_config",
+      "gitignore",
+      "gitcommit",
     })
   end,
 }

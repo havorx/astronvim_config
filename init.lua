@@ -38,6 +38,7 @@ return {
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
           "jsonc",
+          "json",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
