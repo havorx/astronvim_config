@@ -24,6 +24,8 @@ return {
 
   { import = "astrocommunity.pack.sql" },
 
+  { import = "astrocommunity.pack.typescript" },
+
   { import = "astrocommunity.pack.ruby" },
 
   { import = "astrocommunity.pack.rust" },

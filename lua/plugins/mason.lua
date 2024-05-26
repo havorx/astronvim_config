@@ -11,8 +11,6 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
-        "tsserver",
-        "eslint",
         "html",
         "cssls",
         "angularls",
