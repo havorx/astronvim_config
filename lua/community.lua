@@ -24,5 +24,11 @@ return {
 
   { import = "astrocommunity.pack.sql" },
 
+  { import = "astrocommunity.pack.ruby" },
+
+  { import = "astrocommunity.pack.rust" },
+
+  { import = "astrocommunity.pack.go" },
+
   { import = "astrocommunity.programming-language-support.rest-nvim" },
 }
