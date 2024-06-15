@@ -15,7 +15,7 @@ return {
   { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.docker" },
 
-  { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.flash-nvim" },
 
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.editing-support.neogen" },
@@ -32,5 +32,5 @@ return {
 
   { import = "astrocommunity.pack.go" },
 
-  { import = "astrocommunity.programming-language-support.rest-nvim" },
+  -- { import = "astrocommunity.programming-language-support.rest-nvim" },
 }
