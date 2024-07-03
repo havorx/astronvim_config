@@ -32,5 +32,9 @@ return {
 
   { import = "astrocommunity.pack.go" },
 
+  { import = "astrocommunity.recipes.auto-session-restore" },
+
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+
   -- { import = "astrocommunity.programming-language-support.rest-nvim" },
 }
