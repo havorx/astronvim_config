@@ -18,6 +18,7 @@ return {
       "git_config",
       "gitignore",
       "gitcommit",
+      "tmux",
       -- add more arguments for adding more treesitter parsers
     },
   },
