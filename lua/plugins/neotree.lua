@@ -1,12 +1,14 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = function(_, opts)
-    opts.filesystem.filtered_items = {
-      hide_dotfiles = false,
-      hide_by_name = {
-        ".git",
+    return require("astrocore").extend_tbl(opts, {
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = false,
+          hide_by_name = { ".git" },
+          always_show = { ".env" },
+        },
       },
-    }
-    return opts
+    })
   end,
 }
