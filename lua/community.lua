@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.pack.docker" },
 
   { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
 
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.editing-support.neogen" },
