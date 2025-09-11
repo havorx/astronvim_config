@@ -44,4 +44,6 @@ return {
   -- { import = "astrocommunity.game.leetcode-nvim" },
 
   -- { import = "astrocommunity.programming-language-support.rest-nvim" },
+
+  { import = "astrocommunity.docker.lazydocker" },
 }
