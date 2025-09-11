@@ -37,6 +37,8 @@ return {
 
   { import = "astrocommunity.pack.go" },
 
+  { import = "astrocommunity.pack.java" },
+
   { import = "astrocommunity.recipes.auto-session-restore" },
 
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
