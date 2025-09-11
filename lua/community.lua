@@ -27,6 +27,8 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
 
+  { import = "astrocommunity.pack.tailwindcss" },
+
   { import = "astrocommunity.pack.svelte" },
 
   -- { import = "astrocommunity.pack.ruby" },
