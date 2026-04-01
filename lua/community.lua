@@ -27,6 +27,10 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
 
+  { import = "astrocommunity.pack.prettier" },
+
+  { import = "astrocommunity.pack.eslint" },
+
   { import = "astrocommunity.pack.tailwindcss" },
 
   { import = "astrocommunity.pack.svelte" },
@@ -37,7 +41,7 @@ return {
 
   { import = "astrocommunity.pack.go" },
 
-  { import = "astrocommunity.pack.java" },
+  -- { import = "astrocommunity.lsp.nvim-java" },
 
   { import = "astrocommunity.recipes.auto-session-restore" },
 
