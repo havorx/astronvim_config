@@ -23,6 +23,8 @@ return {
 
   -- { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
+
   { import = "astrocommunity.pack.sql" },
 
   { import = "astrocommunity.pack.typescript" },
