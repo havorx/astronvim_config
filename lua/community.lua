@@ -56,4 +56,6 @@ return {
   -- { import = "astrocommunity.programming-language-support.rest-nvim" },
 
   { import = "astrocommunity.docker.lazydocker" },
+
+  { import = "astrocommunity.ai.opencode-nvim" },
 }
