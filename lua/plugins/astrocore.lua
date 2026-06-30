@@ -45,8 +45,10 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        clipboard = "unnamedplus", -- share yanks with system clipboard
       },
       g = { -- vim.g.<key>
+        clipboard = "osc52", -- use OSC 52 clipboard provider (built-in via WezTerm)
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
