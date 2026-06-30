@@ -37,6 +37,8 @@ return {
 
   { import = "astrocommunity.pack.svelte" },
 
+  { import = "astrocommunity.pack.python" },
+
   -- { import = "astrocommunity.pack.ruby" },
 
   { import = "astrocommunity.pack.rust" },
