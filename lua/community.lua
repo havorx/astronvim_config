@@ -60,4 +60,6 @@ return {
   { import = "astrocommunity.docker.lazydocker" },
 
   { import = "astrocommunity.ai.opencode-nvim" },
+
+  { import = "astrocommunity.git.diffview-nvim" },
 }
